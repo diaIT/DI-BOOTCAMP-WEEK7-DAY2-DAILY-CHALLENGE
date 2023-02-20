@@ -8,22 +8,22 @@ class User {
   public function setName($name) {
     // Trim the white spaces
     $name = trim($name);
-    $this -> name = $name;
+    $this->name = $name;
   }
 
 //Add code to the setAge() method that throws the exception whenever the user’s age is less than or equal to zero.
   public function setAge($age) {
     // Cast into an integer type
     $age = (int)$age;
-    $this -> age = $age;
+    $this->age = $age;
   }
 
   public function getName() {
-    return $this -> name;
+    return $this->name;
   }
 
   public function getAge() {
-    return $this -> age;
+    return $this->age;
   }
 }
 
